@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09作業</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            border: 6px solid blue;
+            width: 1150px;
+            height: 950px;
+            box-shadow: 2px 2px 2px gray;
+            background: linear-gradient(37deg,rgb(230, 189, 173,0.8),white,rgb(255, 245, 227,0.6));
+            border-radius: 4px 50px;
+        }
+
+        .type {
+            text-align: center;
+            font-size: 50px;            
+            color: brown;
+            text-shadow: 2px 2px 4px deeppink;
+        }
+
+        .item {
+            height: 260px;
+            border: 4px solid;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 4px gray;
+            border-radius: 4px 50px;
+        }
+
+        .item1 {
+            width: 250px;
+        }
+
+        .item2 {
+            width: 500px;
+            font-size: 50px;
+            padding-left: 10px;            
+        }      
+        img{
+            border-radius: 4px 50px;
+        }  
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="type item1">
+            主餐
+        </div>
+        <div class="type item1">
+            飲料
+        </div>
+        <div class="type item2">
+            介紹餐點
+        </div>
+        <div class="item item1">
+            <img src="https://fairylolita.com/wp-content/uploads/DSCF7708.jpg" alt="" width="250" height="260">
+        </div>
+        <div class="item item1">
+            <img src="https://doqvf81n9htmm.cloudfront.net/data/crop_article/91169/shutterstock_1271869054.jpg_1140x855.jpg" alt="" width="250" height="260">
+        </div>
+        <div class="item item2">
+            <br>
+            排骨飯+珍珠奶茶<br>
+            <mark>500元</mark>
+        </div>
+        <div class="item item1">
+            <img src="https://tokyo-kitchen.icook.network/uploads/recipe/cover/342880/32b755827fe1d479.jpg" alt=""
+                width="250" height="260">
+        </div>
+        <div class="item item1">
+            <img src="https://img95.699pic.com/xsj/16/ex/w9.jpg!/fh/300" alt=""  width="250" height="260">
+        </div>
+        <div class="item item2">
+            <br>
+            雞腿飯+布丁奶茶<br>
+            <mark>550元</mark>
+        </div>
+        <div class="item item1">
+            <img src="https://tokyo-kitchen.icook.network/uploads/recipe/cover/351939/f24a5861e1a08082.jpg" alt=""
+            width="250" height="260">
+        </div>
+        <div class="item item1">
+            <img src="data:image/jpeg;base64,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" alt=""
+            width="250" height="260">
+        </div>
+        <div class="item item2">
+            黯然消魂飯+白開水<br>
+            <s>1000元</s>  <mark>999元</mark><br>
+            是不是很黯然很銷魂?
+        </div>
+    </div>
+</body>
+
+</html>
